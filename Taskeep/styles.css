@@ -1,16 +1,55 @@
 * {
 	margin: 0;padding: 0;
+	font-family: Arial, 'sans-serif';
 }
 html, body {
 	height: 100%;
 }
 nav {
-	width: 400px;
+	float: left;
+	width: 30%;
 	height: 100%;
 	background: url('images/texture.png') repeat;
 }
 #logo {
+	position: relative;
+	top: 50px;left: 50%;
+	margin-left: -100px;
+	width: 200px;
+}
+#notes {
+	float: right;
+	background-color: #adadad;
+	width: 70%;height: 100%;
+
+}
+#choices {
 	display: block;
-	margin: 50px auto 0px auto;
-	width: 300px;
+	position: relative;
+	top: 100px;left: 50px;
+	width: 80%;
+}
+#choices h3 {
+	color: #ababab;
+	font-size: 30px;
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+#choices img {
+	position: absolute;
+	display: inline-block;
+	right: 0px;
+	margin-top: 30px;
+}
+#choices hr {
+	width: 100%;
+}
+#choices ul {
+	margin-top: 10px;
+}
+#choices ul li{
+	color: #cbcbcb;
+	margin-left: 20px;
+	margin-top: 15px;
 }
