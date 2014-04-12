@@ -1,0 +1,16 @@
+* {
+	margin: 0;padding: 0;
+}
+html, body {
+	height: 100%;
+}
+nav {
+	width: 400px;
+	height: 100%;
+	background: url('images/texture.png') repeat;
+}
+#logo {
+	display: block;
+	margin: 50px auto 0px auto;
+	width: 300px;
+}
